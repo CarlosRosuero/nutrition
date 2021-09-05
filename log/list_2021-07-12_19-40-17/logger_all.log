@@ -1,0 +1,96 @@
+[0.804s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/carlos/nutrition']
+[0.804s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/carlos/nutrition'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fb84803e310>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fb84803e310>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb848074b50>)
+[0.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.961s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.965s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.968s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/carlos/nutrition'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extensions ['ignore', 'ignore_ament_install']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extension 'ignore'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extension 'ignore_ament_install'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extensions ['colcon_pkg']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extension 'colcon_pkg'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extensions ['colcon_meta']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extension 'colcon_meta'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extensions ['ros']
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extension 'ros'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extensions ['cmake', 'python']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extension 'cmake'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extension 'python'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extensions ['python_setup_py']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition) by extension 'python_setup_py'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extensions ['ignore', 'ignore_ament_install']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extension 'ignore'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extension 'ignore_ament_install'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extensions ['colcon_pkg']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extension 'colcon_pkg'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extensions ['colcon_meta']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extension 'colcon_meta'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extensions ['ros']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extension 'ros'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extensions ['cmake', 'python']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extension 'cmake'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extension 'python'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extensions ['python_setup_py']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data) by extension 'python_setup_py'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extensions ['ignore', 'ignore_ament_install']
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extension 'ignore'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extension 'ignore_ament_install'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extensions ['colcon_pkg']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extension 'colcon_pkg'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extensions ['colcon_meta']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extension 'colcon_meta'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extensions ['ros']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extension 'ros'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extensions ['cmake', 'python']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extension 'cmake'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extension 'python'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extensions ['python_setup_py']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/MyProtein) by extension 'python_setup_py'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extensions ['ignore', 'ignore_ament_install']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extension 'ignore'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extension 'ignore_ament_install'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extensions ['colcon_pkg']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extension 'colcon_pkg'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extensions ['colcon_meta']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extension 'colcon_meta'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extensions ['ros']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extension 'ros'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extensions ['cmake', 'python']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extension 'cmake'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extension 'python'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extensions ['python_setup_py']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Data/Other) by extension 'python_setup_py'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extensions ['ignore', 'ignore_ament_install']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extension 'ignore'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extension 'ignore_ament_install'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extensions ['colcon_pkg']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extension 'colcon_pkg'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extensions ['colcon_meta']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extension 'colcon_meta'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extensions ['ros']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extension 'ros'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extensions ['cmake', 'python']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extension 'cmake'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extension 'python'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extensions ['python_setup_py']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/Old) by extension 'python_setup_py'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extension 'ignore_ament_install'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extensions ['colcon_pkg']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extension 'colcon_pkg'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extensions ['colcon_meta']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extension 'colcon_meta'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extensions ['ros']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extension 'ros'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extensions ['cmake', 'python']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extension 'cmake'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extension 'python'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extensions ['python_setup_py']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/__pycache__) by extension 'python_setup_py'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/log) by extensions ['ignore', 'ignore_ament_install']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/log) by extension 'ignore'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/carlos/nutrition/log) ignored
+[1.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

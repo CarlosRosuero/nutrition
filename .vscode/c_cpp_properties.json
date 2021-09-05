@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/carlos/eufs/eufs-master/install/zed_interfaces/include/**",
+        "/home/carlos/eufs/eufs-master/install/lidar_grid/include/**",
+        "/home/carlos/eufs/eufs-master/install/pcl_ros/include/**",
+        "/home/carlos/eufs/eufs-master/install/fusion/include/**",
+        "/home/carlos/eufs/eufs-master/install/eufs_models/include/**",
+        "/home/carlos/eufs/eufs-master/install/darknet_ros/include/**",
+        "/home/carlos/eufs/eufs-master/install/eufs_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

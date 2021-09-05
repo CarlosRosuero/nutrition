@@ -1,0 +1,35 @@
+{
+	"python.autoComplete.extraPaths": [
+		"/home/carlos/eufs/eufs-master/install/zed_interfaces/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/status_monitor/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/state_machine/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/simulation_tests/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/ros_can_sim/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/local_planner/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/ground_truth_planner/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/global_planner/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/evaluator_scripts/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/eufs_tracks/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/control_eval/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/eufs_msgs/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/eufs_launcher/lib/python3.8/site-packages",
+		"/opt/ros/foxy/lib/python3.8/site-packages"
+	],
+	"python.analysis.extraPaths": [
+		"/home/carlos/eufs/eufs-master/install/zed_interfaces/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/status_monitor/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/state_machine/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/simulation_tests/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/ros_can_sim/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/local_planner/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/ground_truth_planner/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/global_planner/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/evaluator_scripts/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/eufs_tracks/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/control_eval/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/eufs_msgs/lib/python3.8/site-packages",
+		"/home/carlos/eufs/eufs-master/install/eufs_launcher/lib/python3.8/site-packages",
+		"/opt/ros/foxy/lib/python3.8/site-packages"
+	],
+	"ros.distro": "foxy"
+}
