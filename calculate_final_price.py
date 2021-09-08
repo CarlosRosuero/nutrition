@@ -1,10 +1,13 @@
 from pandas import read_csv
+from os import scandir
 
-filename = 'Data/MyProtein/prices.csv'
 
-df = read_csv(filename, index_col = 'name')
+for folder in scandir('/home/carlos/nutrition/Data'):
 
-for name in df.index:
-	df.loc[name, 'final'] = round((1 - df.loc[name, 'discount'] / 100) * df.loc[name, 'rrp'] / df.loc[name, 'amount'], 7)
+	file = folder.path + '/prices.csv'
 
-df.to_csv(filename)
+	prices = read_csv(file, index_col = 'name')
+
+	prices['final'] = round((1 - prices['discount'] / 100) * prices['price'] / prices['amount'], 7)
+
+	prices.to_csv(file)

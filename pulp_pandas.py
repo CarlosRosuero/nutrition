@@ -1,11 +1,11 @@
 from pulp import LpProblem, lpSum, LpVariable, LpInteger, getSolver, LpConstraint, LpConstraintLE, LpConstraintGE
-from pandas import read_csv
+from pandas import read_csv, concat
 from requirements import constants, ranges, aminoacids
+from os import scandir
 
+nutrients = concat([read_csv(name.path + '/nutrients.csv', index_col = 'Name') for name in scandir('/home/carlos/nutrition/Data')])
 
-nutrients = read_csv('Data/MyProtein/nutrients.csv', index_col = 'Name')
-
-prices = read_csv('Data/MyProtein/prices.csv', index_col = 'name')
+prices = concat([read_csv(name.path + '/prices.csv', index_col = 'name') for name in scandir('/home/carlos/nutrition/Data')])
 
 objects = [LpVariable(item, 0, None, LpInteger) for item in nutrients.index]
 
