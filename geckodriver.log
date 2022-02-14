@@ -1,0 +1,12 @@
+1644839918042	geckodriver	INFO	Listening on 127.0.0.1:59785
+1644839918044	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59957" "-no-remote" "-profile" "/tmp/rust_mozprofilevjGorv"
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0
+1644839958354	geckodriver	INFO	Listening on 127.0.0.1:52469
+1644839958356	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60167" "-no-remote" "-profile" "/tmp/rust_mozprofileBpyFlO"
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0
+1644840032238	geckodriver	INFO	Listening on 127.0.0.1:49843
+1644840032240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60405" "-no-remote" "-profile" "/tmp/rust_mozprofileVosQ8b"
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0

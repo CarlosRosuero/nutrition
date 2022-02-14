@@ -1,4 +1,4 @@
-weight = 83
+weight = 79
 
 constants = {
     'Energy [kcal]' : 3000,
@@ -27,7 +27,7 @@ aminoacids = {
 
 ranges = {
     'SFA [g]'       : ( 0 , min( 0.05 * energy / 9 , 20 ) ),
-    # 'MUFA [g]'      : ( 0.15 * energy / 9 , 0.2 * energy / 9 ),
+    'MUFA [g]'      : ( 0.15 * energy / 9 , 0.2 * energy / 9 ),
     'MUFA [g]'      : ( 0 , 0.2 * energy / 9 ),
     'PUFA [g]'      : ( 0.05 * energy / 9 , 0.1 * energy / 9 ),
     'Omega 6 [g]'   : ( max( 0.05 * energy / 9 , 17 ) , 0.1 * energy / 9 ),

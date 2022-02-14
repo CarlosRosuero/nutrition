@@ -1,6 +1,4 @@
 from pandas import read_csv
-from requests import get
-from bs4 import BeautifulSoup
 from re import sub
 from selenium.webdriver import ChromeOptions, Chrome
 from selenium.common.exceptions import NoSuchElementException, ElementNotInteractableException, ElementClickInterceptedException, StaleElementReferenceException
